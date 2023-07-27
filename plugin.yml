@@ -2,7 +2,7 @@ name: SellMe
 author: cosmicnebula200
 api: 5.0.0
 main: cosmicnebula200\SellMe\SellMe
-version: 1.5.0
+version: 1.6.0
 softdepend: ['BedrockEconomy', 'Capital', 'EconomyAPI']
 
 permissions:

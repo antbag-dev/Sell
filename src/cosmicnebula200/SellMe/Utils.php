@@ -36,7 +36,7 @@ class Utils
         $meta = explode(":", $data)[1] ?? 0;
         $idmeta = $id . ":" . $meta;
         $item = StringToItemParser::getInstance()->parse($idmeta);
-        return $item->getName();
+        
     }
     
     public static function addToPrices(Player $player, int $price, bool $overwrite = false): void
